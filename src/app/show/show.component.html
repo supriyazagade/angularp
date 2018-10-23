@@ -1,0 +1,16 @@
+<table class="table table-responsive table-bordered table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Author</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let entry of data">
+          <th scope="row">{{entry.id}}</th>
+          <td>{{entry.title}}</td>
+          <td>{{entry.author}}</td>
+        </tr>
+      </tbody>
+    </table>
